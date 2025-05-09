@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 10px;
+    border-top: 1px solid #ed746993;
+}
+.container span {
+    color: #2e2e2e;
+    padding: 5px 10px;
+}
+.container div button {
+    background-color: rgb(250, 235, 215);
+    border: 1px solid #9b9a9a;
+    padding: 10px 20px;
+    margin: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    color: #2e2e2e;
+}
+.container button {
+    background-color: rgb(250, 235, 215);
+    border: 1px solid #9b9a9a;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    color: #2e2e2e;
+}
+@media (max-width : 700px) {
+    .container{
+        flex-direction: column;
+    }
+    .container span , .container div button , .container button {
+        padding: 3px 10px;
+        margin: 5px;
+    }
+}

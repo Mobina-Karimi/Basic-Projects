@@ -1,0 +1,28 @@
+.item{
+    display: flex;
+    align-items: center;
+    border: 1px solid #9b9a9a;
+    padding: 5px 3px 5px 15px;
+    height: 3rem;
+    border-radius: 4px;
+}
+.checked {
+    text-decoration: line-through; 
+    color: #9b9a9a;
+  }
+.checkBox{
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+}
+.item button {
+    margin-left: auto;
+    margin-right: 2px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: rgb(250, 234, 214);
+    border: 1px solid #9b9a9a;
+    cursor: pointer;
+    text-align: center;
+    color: #2e2e2e;
+}

@@ -1,0 +1,20 @@
+.tdlContainer h2 {
+    color: #ed7469;
+    margin: 10px 50px;
+}
+.tdl {
+    list-style: none;
+    margin: 5px 50px;
+}
+.message {
+    width: 90%;
+    height: 5rem;
+    padding: 10px;
+    margin: 5px auto;
+    color: #9b9a9a;
+    background-color: #ed74691b;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 60px;
+}
+
