@@ -21,7 +21,25 @@ A browser-based Rock, Paper, Scissors game built with vanilla JavaScript. This i
  <li>Score Tracking: Monitor your performance with dynamic score updates (database integration coming soon).</li>
 </ul>
 
+## Todo App
+A simple and interactive Todo application built with vanilla JavaScript. This app allows users to manage their tasks efficiently with features like filtering, marking tasks as complete, and deleting tasks individually or in bulk.
+
+ #### Features:
+<ul>
+ <li>Add Tasks: Easily add new tasks to your list.</li>
+ <li>Mark as Complete: Use checkboxes to mark tasks as completed.</li>
+ <li>Filter Tasks: View tasks based on their status:</li>
+   <ul>
+   <li>All: Displays all tasks.</li>
+   <li>Active: Shows tasks that are yet to be completed.</li>
+   <li>Completed: Displays tasks that have been marked as completed.</li>
+  </ul>
+ <li>Clear Completed: Remove all completed tasks with a single click.</li>
+ <li>Delete Individual Tasks: Remove specific tasks using their unique IDs.</li>
+</ul>
+
 ##
+
 
 
  
