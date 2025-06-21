@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+}
+
+.cards {
+    flex: 2.6 1 0 ;
+    min-height: 100vh;
+}
+
+.favorite {
+    flex: 1 1 0;
+    height: fit-content;
+    padding: 15px;
+    background-color: #ff000094;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.favorite h4 {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .cards {
+        order: 2; 
+    }
+    .favorite {
+        order: 1; 
+        margin-left: 0; 
+        margin-bottom: 30px;
+    }
+}

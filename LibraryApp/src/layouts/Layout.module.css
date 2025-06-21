@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #303030;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+.header button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff000094;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    background-color: #303030;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+}

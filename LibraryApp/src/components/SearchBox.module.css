@@ -1,0 +1,36 @@
+.search {
+    margin-bottom: 50px;
+}
+
+.search input {
+    width: 94%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    background-color: #e0e0e0;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #ff000094;
+    
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .search input {
+        width: 70%;
+    }
+}
