@@ -55,6 +55,20 @@ A dynamic and interactive cryptocurrency dashboard built with React, providing r
 </ul>
 
 
+## 5-Library App
+A dynamic and interactive library application built with React, providing real-time book data fetched from a live API. The application displays books as cards, supports search functionality, a favorites system with a collapsible sidebar, and a responsive design for a smooth user experience.
+
+ #### Features:
+<ul>
+ <li>Real-Time Data: The app fetches up-to-date book information such as title, author, and page count from a reliable live API source</li>
+ <li>Book Cards: All books are displayed in visually appealing card formats containing relevant information for quick browsing.</li>
+ <li>Favorites System: Users can mark their favorite books by clicking a heart icon. Favorited books are collected and shown in a separate list.</li>
+ <li>Search Functionality: A real-time search bar allows users to find books by title instantly as they type.</li>
+ <li>Responsive Design: The interface is fully responsive, ensuring optimal performance on desktops, tablets, and mobile devices.</li>
+</ul>
+
+
+
 
 
  
