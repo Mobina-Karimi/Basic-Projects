@@ -1,0 +1,114 @@
+body
+{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+h1
+{
+    padding-right: 115px;
+    line-height: 60px;
+    border-bottom: #cfcfcf solid;
+    margin-bottom: 30px;
+	cursor: default;
+}
+p
+{
+    color: #000000;
+	cursor: default;
+}
+.login
+{
+    width: 400px;
+    height: 570px;
+    margin: 8px auto;
+    color: #555;
+    background-color: #e7e7e7a4;
+    padding: 3px 50px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 6px #555555de;
+}
+.username input , .password  input 
+{
+    border: none;
+    outline: none;
+    width: 285px;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+.username, .password 
+{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: inset 8px 8px 8px #d0d5d8e1,
+    inset -8px -8px 8px #f7f7f7;
+}
+.login svg 
+{
+    height: 25px;
+    margin: 0 30px -7px 25px;
+}
+a
+{
+    color: #494949;
+    cursor: pointer;
+	text-decoration: none;
+}
+a:hover
+{
+	color: blue;
+}
+#loginBtn
+{
+    outline: none;
+    border: none;
+    margin-right: 140px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #cfcfcf;
+    border-radius: 15px;
+    font-size: 15px;
+}
+#loginBtn:hover
+{
+    background-color:  #494949;
+    color: #cfcfcf;
+}
+.orSignup
+{
+    border-top: #cfcfcf solid;
+    margin-top: 30px;
+}
+#orSignup
+{
+    text-align: center;
+    color: #494949;
+}
+#SignupBtn
+{
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #cfcfcf;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-right: 115px;
+}
+#SignupBtn:hover
+{
+    background-color:  #494949;
+    color: #cfcfcf;
+}
+#SignupBtn:active
+{
+    box-shadow: 5px 5px 6px #555;
+}

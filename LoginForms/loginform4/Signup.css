@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: rgb(161,0,0);
+    background: linear-gradient(90deg, rgba(161,0,0,1) 0%, rgba(250,21,21,1) 37%, rgba(255,234,0,1) 100%);
+}
+.container{
+    width: 30%;
+    margin: 2rem auto;
+    padding: 30px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: white;
+}
+#profile-photo{
+    display: none;
+}
+#profileImage
+{
+    cursor: pointer;
+}
+.profile{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.profile img{
+    width: 120px;
+    height: 120px;
+}
+.login{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:focus{
+    text-decoration: underline;
+    color: crimson;
+}
+a:first-child{
+    margin-right: 20px;
+}
+.inputs{
+    display: block;
+    margin: 30px auto;
+    border: none;
+    border-bottom: 2px solid crimson;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+button{
+    display: block;
+    margin: 30px auto;
+    border: none;
+    padding: 5px 90px;
+    background: linear-gradient(to top right, yellow,red);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:active{
+    background: linear-gradient(to bottom left , yellow ,red);
+    box-shadow: 1px 2px 6px red;
+}

@@ -1,0 +1,93 @@
+body{
+    /* background-image: linear-gradient(to top right, rgb(13, 13, 235,0), rgb(13, 13, 235,1)); */
+    /* background-image: radial-gradient(circle,rgb(13, 13, 235,0), rgb(13, 13, 235,1)); */
+    background-color: #0101fcd7;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 35vw;
+    height: 98vh;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 2vw;
+    color: #000;
+    cursor: default;
+}
+span{
+    color: #0101fcd7;
+    cursor: default;
+}
+input{
+    display: block;
+    margin: 6vh auto;
+    padding: 2vh 13vw 2vh 3vw;
+    border: none;
+    border-bottom: 1px solid #0101fcd7;
+}
+input:last-of-type{
+    border:1px solid #0101fcd7 ;
+    background-image: linear-gradient(to top right, rgb(13, 13, 235,0.7), rgb(32, 114, 236));
+    border-radius: 3px;
+    padding: 2vh 13vw;
+    cursor: pointer;
+    font-size: large;
+    box-shadow: 1px 2px 6px blue;
+}
+input:last-of-type:active{
+    background-image: linear-gradient(to bottom left, rgb(13, 13, 235,0.7), rgb(32, 114, 236));
+    box-shadow: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 3vh;
+}
+.newPassword{
+    color: #000;
+}
+a:hover{
+    color: crimson;
+}
+@media screen and (max-width:910px)
+{
+    .container{
+        width: 40vw;
+        /* height: 98vh; */
+    }
+    input{
+        padding: 2vh 5vw;
+        margin: 2vh auto;
+    }
+    input:last-of-type{
+        padding: 2vh 10vw;
+    }
+    h1{
+        font-size: 5vw;
+        padding: 10px;
+    }
+    
+} 
+@media screen and (max-width:665px){
+    .container{
+        width: 75vw;
+    }
+    input{
+        margin: 2vh auto;
+    }
+    input:last-of-type{
+        padding: 2vh 20vw;
+        margin: 2vh auto;
+    }
+    h1{
+        font-size: 5vw;
+        padding: 10px;
+    }
+}

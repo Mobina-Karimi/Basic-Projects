@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(to right, #00f260, #0575e6);
+}
+.container{
+    margin: 2rem auto;
+    width: 30%;
+    position: relative;
+     border: 1px solid rgba(225, 225, 225, 0.3);
+     border-radius: 12px;
+     backdrop-filter: blur(12px);
+     box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+}
+.circle {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: black;
+    border-radius: 50%;
+    z-index: -2;
+}
+.circle1 {
+    background: #00f260;
+    right: 400px;
+    top: -30px;
+}
+.circle2 {
+    background: #0575e6;
+    bottom: -50px;
+    left: 380px;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    cursor: default;
+}
+input[type=text], input[type=password]{
+    display: block;
+    margin: 30px auto;
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    padding: 10px 50px;
+}
+input::placeholder{
+    color: #4b4b4b;
+}
+input[type=checkbox]{
+    margin: 30px 0 30px 50px;
+}
+.FRpassword{
+    text-decoration: none;
+    color: black;
+    margin: 30px 0 30px 50px;
+}
+.FRpassword:hover{
+    color: blue;
+    text-decoration: underline;
+}
+input[type=checkbox]{
+    background-color: #000000 !important;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    border: none;
+    background: linear-gradient(to right,#1111fcb2, #029402b9);
+    color: black;
+    border-radius: 5px;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+.signup{
+    margin: 30px auto;
+    text-align: center;
+}
+#signup{
+    text-decoration: none;
+}
+#signup:hover{
+    text-decoration: underline;
+}
+.connect{
+    text-align: center;
+    padding: 25px;
+    color: black;
+    margin-top: 1rem;
+}
+.connect:before,
+.connect:after {
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+.connect:before {
+    right: 0.5rem;
+    margin-left: -50%;
+}
+.connect:after {
+    left: 0.5rem;
+    margin-right: -50%;
+}
+.fa{
+    font-size: 30px !important; 
+    cursor: pointer;
+}
+.fa-google{
+    margin: 7px 30px 30px 140px;
+    color:lightblue;
+    text-shadow:2px 2px 4px #000000;
+}
+.fa-twitter{
+    color:lightblue;
+    text-shadow:2px 2px 4px #000000;
+}

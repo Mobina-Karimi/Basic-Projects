@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginForm</title>
+    <link rel="stylesheet" href="loginform.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <a href="#" id="signin">Sign in</a>
+            <a href="Signup.css">Sign up</a>
+        </div>
+
+        <div class="profile-container">
+            <div class="profile">
+                 <image id="profileImage" src="avatar.png" />
+            </div>
+            <input type="file" name="profile-photo" id="profile-photo" placeholder="photo" required capture>
+        </div>
+        
+        <div>
+            <input type="text" name="username" class="inputs" placeholder="Enter Your Username" required>
+            <input type="password" name="password" class="inputs" placeholder="Enter Your Password" required>
+            <button>Login</button>
+            <a href="#" id="forgot">Forgot Your Password?</a>
+        </div>
+    </div>
+</body>
+</html>
