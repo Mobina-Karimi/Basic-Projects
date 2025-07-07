@@ -20,6 +20,10 @@ A dynamic and interactive library application built with React, providing real-t
 ### 6. Login Forms
 A collection of user login forms built with various styling approaches using HTML, CSS, and JavaScript. Each form includes fields such as username/email and password, with additional features like show/hide password, social media login buttons, responsive design and... . The loginforms folder contains multiple styled versions of login forms created to practice and showcase different UI/UX design patterns.
 
+### 7. Blog
+
+A dynamic and modern blog web application built with React and powered by Hygraph API. This app displays blog posts, author profiles, and user comments by fetching and rendering real-time content from the headless CMS. It features a clean, responsive UI optimized for readability and interaction.
+
 
 
  
