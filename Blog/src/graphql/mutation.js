@@ -5,7 +5,7 @@ const SEND_COMMENT = gql`
         $name: String!
         $email: String!
         $text: String!
-        $slug; String!
+        $slug: String!
     ){
         createComment(
             data: {
