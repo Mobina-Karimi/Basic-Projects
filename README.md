@@ -24,6 +24,10 @@ A collection of user login forms built with various styling approaches using HTM
 
 A dynamic and modern blog web application built with React and powered by Hygraph API. This app displays blog posts, author profiles, and user comments by fetching and rendering real-time content from the headless CMS. It features a clean, responsive UI optimized for readability and interaction.
 
+### 8. USD ↔ IRR Converter App
+A simple and responsive currency converter built with React that converts between US Dollars (USD) and Iranian Rials (IRR) using the [Navasan API](https://www.navasan.tech/api/).  
+
+
 
 
  
